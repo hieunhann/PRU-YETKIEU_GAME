@@ -1,0 +1,71 @@
+# =============== 1. THƯ MỤC TỰ SINH CỦA UNITY (BẮT BUỘC BỎ QUA) ===============
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# =============== 2. FILE BUILD GAME ===============
+*.apk
+*.aab
+*.app
+*.exe
+*.mac
+*.x86
+*.x86_64
+*.zip
+*.rar
+*.unitypackage
+
+# =============== 3. BẢO MẬT CHỮ KÝ GAME (RẤT QUAN TRỌNG) ===============
+*.keystore
+*.jks
+*.sig
+*.p12
+*.provisionprofile
+
+# =============== 4. CÁC CÔNG CỤ & ASSET CỦA GAME ===============
+/[Aa]ssets/AddressableAssetsData/*/*.bin
+ServerData/
+/[Aa]ssets/AssetStoreTools*
+
+# =============== 5. CÔNG CỤ LẬP TRÌNH (IDE Caches) ===============
+.vs/
+.idea/
+.gradle/
+.consulo/
+ExportedObj/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# =============== 6. CRASH REPORTS ===============
+sysinfo.txt
+crashlytics-build.properties
+
+# =============== 7. HỆ ĐIỀU HÀNH ===============
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
